@@ -4,7 +4,10 @@ maven-project
 auth : 홍성민 (lovehouse)
 
 이 프로젝트를 진행하는 이유는 웹프로젝트를 진행시 보다 쉽고 빠르게 프로젝트 기본 골격을 구축하기 위해서 진행
-프로젝트 기본 골격은 스프링 프레임웤을 사용할 것이며, view페이지는 Twitter Bottstrap admin theme를 사용할 것이다. 
+프로젝트 기본 골격은 스프링 프레임웤을 사용할 것이며, view페이지는 Twitter Bottstrap admin theme를 사용할 것이다.
+Java version은 우선 1.6으로 진행을 할 것이며, 추후 1.7로 변경할 예정이다. 
+우리나라에서는 아직은 1.6을 많이 사용하고 있기에...
+
 
 
 ### 프로젝트 구성요소
@@ -21,3 +24,7 @@ auth : 홍성민 (lovehouse)
 - Twitter Bootstrap 3.x
 - Tomcat 1.6
 - MySql 5.1.6
+
+
+
+This project is released for general use under Apache License 2.0 as described here: http://www.apache.org/licenses/LICENSE-2.0
