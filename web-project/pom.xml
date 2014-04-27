@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<parent>
+		<groupId>com.hnsnmn</groupId>
+		<artifactId>maven-spring-project</artifactId>
+		<version>0.1.0</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>maven-web-project</artifactId>
+	<packaging>war</packaging>
+
+
+	<dependencies>
+		<dependency>
+			<artifactId>common-lib</artifactId>
+			<groupId>com.hnsnmn</groupId>
+			<version>${project.version}</version>
+			<type>pom</type>
+		</dependency>
+
+		<dependency>
+			<artifactId>framework</artifactId>
+			<groupId>com.hnsnmn</groupId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
