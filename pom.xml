@@ -6,9 +6,11 @@
 	<artifactId>maven-spring-project</artifactId>
 	<packaging>pom</packaging>
 	<version>0.1.0</version>
+
 	<modules>
 		<module>common-lib</module>
 		<module>framework</module>
+		<module>web-project</module>
 	</modules>
 	<name>maven-project-by-hnsnmn</name>
 </project>
