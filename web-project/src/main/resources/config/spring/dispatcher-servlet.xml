@@ -13,6 +13,9 @@
 
 	<mvc:annotation-driven/>
 
+	<!-- Handles HTTP GET requests for /resourcws/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
+	<mvc:resources mapping="/res/**" location="/res/" />
+
 	<!-- Tiles Setting -->
 	<bean id="tilesConfiguer" class="org.springframework.web.servlet.view.tiles2.TilesConfigurer">
 		<property name="definitions">
