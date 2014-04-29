@@ -13,7 +13,7 @@
 
 	<mvc:annotation-driven/>
 
-	<!-- Handles HTTP GET requests for /resourcws/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
+	<!-- Handles HTTP GET requests for /res/** by efficiently serving up static resources in the ${webappRoot}/res directory -->
 	<mvc:resources mapping="/res/**" location="/res/" />
 
 	<!-- Tiles Setting -->
