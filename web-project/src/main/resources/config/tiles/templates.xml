@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+		"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+		"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="base" template="/WEB-INF/views/layout/default.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/common/header.jsp" />
+		<put-attribute name="message" value="/WEB-INF/views/common/message.jsp" />
+		<put-attribute name="content" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/common/footer.jsp" />
+	</definition>
+
+	<definition name="/sample/*" extends="base">
+		<put-attribute name="title" value="WebProject" />
+		<put-attribute name="content" value="/WEB-INF/views/ko/sample/{1}.jsp" />
+	</definition>
+</tiles-definitions>
