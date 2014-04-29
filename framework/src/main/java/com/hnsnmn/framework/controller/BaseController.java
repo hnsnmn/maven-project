@@ -1,4 +1,4 @@
-package com.hnsnmn.spring.controller;
+package com.hnsnmn.framework.controller;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.AbstractController;
