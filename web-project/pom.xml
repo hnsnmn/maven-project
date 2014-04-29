@@ -12,15 +12,26 @@
 	<artifactId>maven-web-project</artifactId>
 	<packaging>war</packaging>
 
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
 	<dependencies>
+
 		<dependency>
 			<artifactId>common-lib</artifactId>
 			<groupId>com.hnsnmn</groupId>
 			<version>${project.version}</version>
 			<type>pom</type>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-logging</groupId>
+					<artifactId>commons-logging</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
+		<!-- Parent Project Dependencies -->
 		<dependency>
 			<artifactId>framework</artifactId>
 			<groupId>com.hnsnmn</groupId>
