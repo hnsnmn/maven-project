@@ -25,6 +25,6 @@ Java version은 우선 1.6으로 진행을 할 것이며, 추후 1.7로 변경�
 - Tomcat 1.6
 - MySql 5.1.6
 
-
+## 1. framework Module은 프로젝트 관리에서 > Dependencies common-lib를 추가해준다.
 
 This project is released for general use under Apache License 2.0 as described here: http://www.apache.org/licenses/LICENSE-2.0
