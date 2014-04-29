@@ -8,5 +8,5 @@ package com.hnsnmn.admin.webapp.common;
  * To change this template use File | Settings | File Templates.
  */
 public class WebAppRequestUrl {
-	public static final String SIMPLE_LIST = "/simple/list";
+	public static final String SAMPLE_LIST = "/simple/list";
 }
