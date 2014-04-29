@@ -14,7 +14,6 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
-			classpath:config/spring/applicationContext-service.xml
 			classpath:config/spring/applicationContext-properties.xml
 		</param-value>
 	</context-param>
