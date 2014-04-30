@@ -25,6 +25,8 @@
 		<xstream.version>1.4.2</xstream.version>
 		<logback.version>1.0.1</logback.version>
 
+		<apacheDbcp.version>1.4</apacheDbcp.version>
+		<apacheLang.version>2.6</apacheLang.version>
 		<apacheTiles.version>2.2.2</apacheTiles.version>
 
 		<mavenDependency.plugin.version>2.4</mavenDependency.plugin.version>
@@ -154,6 +156,19 @@
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
 			<version>${xstream.version}</version>
+		</dependency>
+
+		<!-- Apache Commons -->
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>${apacheDbcp.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${apacheLang.version}</version>
 		</dependency>
 
 		<!-- Apache Tile -->
