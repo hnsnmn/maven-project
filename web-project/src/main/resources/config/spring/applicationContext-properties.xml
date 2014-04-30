@@ -9,6 +9,7 @@
            http://www.springframework.org/schema/util/spring-util-3.1.xsd">
 
 	<util:properties id="httpErrorProperties" location="classpath:config/properties/http.error.messages.properties" />
+	<util:properties id="dbProperties" location="classpath:config/properties/db.properties" />
 
 	<bean id="httpError" class="com.hnsnmn.admin.api.common.HttpError" />
 </beans>
