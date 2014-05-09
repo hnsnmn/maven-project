@@ -146,11 +146,13 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>${ibatis.version}</version>
 		</dependency>
+		<!--ibatis -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-ibatis</artifactId>
 			<version>${ibatis.version}</version>
 		</dependency>
+
 		<!-- XStream -->
 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN" "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+<sqlMapConfig>
+	<settings
+			lazyLoadingEnabled="true"
+			cacheModelsEnabled="true"
+			enhancementEnabled="true"
+			useStatementNamespaces="true"
+			maxRequests="512"
+			maxSessions="128"
+			maxTransactions="32"
+			/>
+
+	<typeHandler javaType="java.util.Date" callback="com.ibatis.sqlmap.engine.type.SqlTimestampTypeHandler" />
+	<typeHandler javaType="java.sql.Date" callback="com.ibatis.sqlmap.engine.type.SqlTimestampTypeHandler" />
+
+	<!-- Sample 쿼리 -->
+	<sqlMap resource="config/sql/Sample.xml" />
+</sqlMapConfig>

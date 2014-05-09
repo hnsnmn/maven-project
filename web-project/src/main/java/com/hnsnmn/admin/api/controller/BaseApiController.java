@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
  * Time: 오후 11:21
  * To change this template use File | Settings | File Templates.
  */
-public class BaseApiController extends BaseController {
+public class BaseApiController implements BaseController {
 	private Logger logger = LoggerFactory.getLogger(BaseApiController.class);
 
 	protected ModelAndView mav() {
