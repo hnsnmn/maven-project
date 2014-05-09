@@ -15,9 +15,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * To change this template use File | Settings | File Templates.
  */
 @Controller
+@RequestMapping(value = "/sample/")
 public class SampleBoardController extends BaseWebAppController {
 
-	@RequestMapping(value = WebAppRequestUrl.SAMPLE_LIST, method = RequestMethod.GET)
+	@RequestMapping(value = WebAppRequestUrl.LIST, method = RequestMethod.GET)
 	public String list(ModelMap modelMap) {
 		return View.SAMPLE_LIST;
 	}

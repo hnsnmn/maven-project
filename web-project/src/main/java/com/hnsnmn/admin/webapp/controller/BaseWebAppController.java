@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
  * Time: 오후 5:36
  * To change this template use File | Settings | File Templates.
  */
-public class BaseWebAppController extends BaseController {
+public abstract class BaseWebAppController implements BaseController {
 	@Autowired
 	HttpServletRequest request;
 }
